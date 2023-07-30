@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header {
+    text-align: center;
+    align-items: center
+}
+
+.content {
+    flex: 1;
+
+    padding: 30px;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+}
+
+
+iframe {
+    width: 100%;
+    height: 400%;
+    border: none;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar {
+    width: 250px;
+    height: 700px;
+
+    background-color: #4b90ad;
+    padding: 25px;
+    color: #48b8cc; /* Color del texto */
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #4b90ad; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    padding: 10px;
+    position: fixed; /* Fijamos el footer en la parte inferior de la página */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Ancho completo del footer */
+}
+
+/* Estilos de los iconos de redes sociales */
+.redes-sociales {
+    text-align: center; /* Centramos los enlaces horizontalmente */
+}
+
+
+.redes-sociales a {
+    display: inline-block; /* Mostramos los enlaces en línea */
+    color: #ffffff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quitamos el subrayado de los enlaces */
+    margin: 5px; /* Espaciado entre los enlaces */
+    font-size: 20px; /* Tamaño de fuente de los enlaces */
+}
+
+/* Estilos de los iconos de redes sociales */
+.icono-facebook {
+    /* Agrega aquí el estilo del icono de Facebook, por ejemplo: */
+     background-image: url("https://cdn.icon-icons.com/icons2/159/PNG/256/facebook_22567.png"); 
+}
+
+.icono-twitter {
+    background-image: url("https://images.vexels.com/media/users/3/137419/isolated/lists/b1a3fab214230557053ed1c4bf17b46c-logotipo-de-icono-de-twitter.png"); 
+}
+
+.icono-instagram {
+    width: 500;
+    height: 10;
+    background-image: url("https://cdn-icons-png.flaticon.com/256/1409/1409946.png");
+}
